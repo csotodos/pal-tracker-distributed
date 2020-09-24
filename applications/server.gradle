@@ -1,6 +1,12 @@
 apply plugin: "org.springframework.boot"
 apply plugin: "io.spring.dependency-management"
 
+dependencyManagement {
+    imports {
+        mavenBom "io.pivotal.spring.cloud:spring-cloud-services-dependencies:$springCloudServicesClientLibrariesVersion"
+    }
+}
+
 dependencies {
     compile project(":components:rest-support")
 
@@ -11,4 +17,7 @@ dependencies {
     compile "ch.qos.logback:logback-classic:$logbackVersion"
 
     testCompile project(":components:test-support")
+
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "io.pivotal.spring.cloud:spring-cloud-services-starter-service-registry"
 }
