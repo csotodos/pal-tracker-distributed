@@ -1,0 +1,6 @@
+https://registration-pal-csotodos.apps.evans.pal.pivotal.io/users/1
+https://registration-pal-csotodos.apps.evans.pal.pivotal.io/accounts?ownerId=2
+https://registration-pal-csotodos.apps.evans.pal.pivotal.io/projects?accountId=1
+https://allocations-pal-csotodos.apps.evans.pal.pivotal.io/allocations?projectId=1
+https://backlog-pal-csotodos.apps.evans.pal.pivotal.io/stories?projectId=2
+https://timesheets-pal-csotodos.apps.evans.pal.pivotal.io/time-entries?userId=2

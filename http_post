@@ -1,0 +1,1 @@
+curl -v -XPOST -H"Content-Type: application/json" localhost:8083/registration -d"{\"name\": \"Sally\"}"
